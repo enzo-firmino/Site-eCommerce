@@ -1,0 +1,54 @@
+
+#eau_detail{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:100px;
+	display : flex;
+	flex-direction: row;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-top: 20px;
+	padding-right: 20px;
+	box-shadow: 1px 1px 12px black;
+
+
+} 
+
+
+#eau_partie_gauche{
+	width: 60%;
+	text-align: center;
+
+}
+
+#eau_partie_gauche img{
+	width: 10vw;
+	height: auto;
+}
+
+#eau_partie_droite{
+	display: flex; 
+	flex-direction: column;
+	width: 40%;
+	text-align: center;
+}
+
+#eau_partie_droite a {
+	text-decoration: none;
+	background-color: #0052cc;
+	color: white;
+	margin-bottom: 10px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 5px;
+}
+
+#eau_partie_droite a:hover{
+	color: black;
+}
+
+#eau_partie_droite :nth-child(2){
+	color : #cc0000;
+	font-weight : bold;
+}

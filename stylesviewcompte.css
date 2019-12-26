@@ -1,0 +1,38 @@
+#liste_commande{
+	display: flex;
+	width: 40%;
+	margin-top: 100px;	
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	flex-direction : column;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 1px 1px 12px black;
+	border-radius: 10px;
+
+}
+
+#liste_commande a {
+	color : black;
+	text-decoration: underline;
+}
+
+
+
+
+#info_compte {
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 1px 1px 12px black;
+	border-radius: 10px;
+
+}
+
+#info_compte a{
+	color: black;
+	text-decoration: underline;
+}
